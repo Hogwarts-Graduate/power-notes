@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/power-notes/',
+  // base: '/power-notes/',
   head: [["link", { rel: "icon", href: "/power-notes/icons/book.svg" }]],
   title: "Power Notes",
   description: "a notes website",
