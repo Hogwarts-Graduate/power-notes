@@ -1,5 +1,23 @@
-# node
-node_modules/
+# Node.js
+node_modules/             # Node.js 依赖包
+npm-debug.log*            # npm 调试日志文件
+yarn-error.log            # yarn 错误日志文件
+package-lock.json         # npm 的锁文件（如无需提交锁文件）
+
+# VitePress
+.vitepress/dist/          # VitePress 构建生成的静态文件
+.vitepress/cache/         # VitePress 的缓存目录
+temp/                     # 可能的临时文件夹
+.vitepress/.temp/         # VitePress 临时文件
+cache
+
+# Logs
+*.log                     # 日志文件
+
+# OS generated files
+.DS_Store                 # macOS 系统文件
+Thumbs.db                 # Windows 缩略图缓存
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

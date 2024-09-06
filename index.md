@@ -3,23 +3,28 @@
 layout: home
 
 hero:
-  name: "power-notes"
+  name: "Power Notes"
   text: "a notes website"
-  tagline: My great project tagline
+  tagline: just be better
+
+  image:
+    src: /icons/study.svg
+    alt: learning illustration
+
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: about me
+      link: /notes/about/me
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: '生成式 AI'
+    details: 
+  - title: '大模型应用'
+    details: 
+  - title: '癌症诊断'
+    details: 
 ---
 
