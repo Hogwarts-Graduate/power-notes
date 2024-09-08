@@ -23,6 +23,12 @@ export default defineConfig({
       },
       {
         text: 'Examples2', link: '/notes/testfiles/markdown-examples2'
+      },
+      {
+        text: '其他教程',
+        items: [
+          { text: 'Vitepress', link: 'notes/others/vitepress' }
+        ]
       }
     ],
 
