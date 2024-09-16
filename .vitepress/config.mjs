@@ -27,9 +27,17 @@ export default defineConfig({
       {
         text: '其他教程',
         items: [
-          { text: 'Vitepress', link: 'notes/others/vitepress' }
+          { text: 'Vitepress', link: 'notes/others/vitepress' },
+          { text: 'NVM', link: 'notes/others/NVM' },
+          { text: 'Git', link: 'notes/others/Git' },
         ]
-      }
+      },
+      // {
+      //   text: '关于本站',
+      //   items: [
+      //     { text: 'Vitepress', link: 'notes/others/vitepress' }
+      //   ]
+      // }
     ],
 
     // sidebar: false,
