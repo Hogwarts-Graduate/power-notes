@@ -14,30 +14,70 @@ export default defineConfig({
     outline: [2, 4],
     nav: [
       { text: 'Home', link: '/' },
+
       {
-        text: 'Examples',
+        text: '深度学习',
         items: [
-          { text: "python", link: "/notes/testfiles/markdown-examples" },
-          { text: "javascript", link: "/notes/testfiles/markdown-examples1" },
+          {
+            text: 'pending',
+            link: '/notes/pending/pending'
+          },
         ]
       },
+
       {
-        text: 'Examples2', link: '/notes/testfiles/markdown-examples2'
+        text: '大模型相关',
+        items: [
+          {
+            text: 'pending',
+            link: '/notes/pending/pending'
+          },
+        ]
       },
+
+      {
+        text: '算法相关',
+        items: [
+          {
+            text: 'pending',
+            link: '/notes/pending/pending'
+          },
+        ]
+      },
+
+      {
+        text: 'UE学习',
+        items: [
+          {
+            text: 'pending',
+            link: '/notes/pending/pending'
+          },
+        ]
+      },
+
+      {
+        text: 'web开发',
+        items: [
+          {
+            text: 'pending',
+            link: '/notes/pending/pending'
+          },
+        ]
+      },
+
       {
         text: '其他教程',
         items: [
-          { text: 'Vitepress', link: 'notes/others/vitepress' },
+          { text: 'Vitepress', link: 'notes/others/Vitepress' },
           { text: 'NVM', link: 'notes/others/NVM' },
           { text: 'Git', link: 'notes/others/Git' },
         ]
       },
-      // {
-      //   text: '关于本站',
-      //   items: [
-      //     { text: 'Vitepress', link: 'notes/others/vitepress' }
-      //   ]
-      // }
+
+      {
+        text: '关于本站',
+        link: '/notes/pending/pending'
+      }
     ],
 
     // sidebar: false,
@@ -52,9 +92,9 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ],
 
     footer: {
       message: '千里之行，始于足下',
