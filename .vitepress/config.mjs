@@ -71,6 +71,7 @@ export default defineConfig({
           { text: 'Vitepress', link: 'notes/others/Vitepress' },
           { text: 'NVM', link: 'notes/others/NVM' },
           { text: 'Git', link: 'notes/others/Git' },
+          { text: 'Ubuntu', link: 'notes/others/Ubuntu轻松用' },
         ]
       },
 
