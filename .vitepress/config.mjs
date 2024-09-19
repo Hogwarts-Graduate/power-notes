@@ -77,7 +77,7 @@ export default defineConfig({
 
       {
         text: '关于本站',
-        link: '/notes/pending/pending'
+        link: '/notes/about/site'
       }
     ],
 

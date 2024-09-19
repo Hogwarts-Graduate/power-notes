@@ -15,9 +15,9 @@ hero:
     - theme: brand
       text: about me
       link: /notes/about/me
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
+    - theme: alt
+      text: 关于本站
+      link: /notes/about/site
 
 features:
   - title: '生成式 AI'
